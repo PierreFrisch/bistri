@@ -18,13 +18,13 @@ exports.Main = Component.specialize(/** @lends Main# */ {
             
             
         }
-    }
+    },
     
     onBistriConferenceReady: {
         value: function() {
            console.log("onBistriConferenceReady"); 
         }
-    },
+    }
 
         
 });
