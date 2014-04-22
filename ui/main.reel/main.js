@@ -14,8 +14,6 @@ exports.Main = Component.specialize(/** @lends Main# */ {
         value: function Main() {
             this.super();
             window.onBistriConferenceReady = this.onBistriConferenceReady;
-
-            
         }
     },
     
