@@ -13,7 +13,22 @@ exports.Main = Component.specialize(/** @lends Main# */ {
     constructor: {
         value: function Main() {
             this.super();
+            
+            window.
+            
+            
         }
     }
+    
+    reset: {
+        value: function() {
+            
+        }
+    },
+
+    
+    onBistriConferenceReady = function(){
+    // your code goes here
+};
     
 });
