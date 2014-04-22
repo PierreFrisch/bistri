@@ -14,21 +14,17 @@ exports.Main = Component.specialize(/** @lends Main# */ {
         value: function Main() {
             this.super();
             
-            window.
+            window.onBistriConferenceReady = onBistriConferenceReady;
             
             
         }
     }
     
-    reset: {
+    onBistriConferenceReady: {
         value: function() {
-            
+           console.log("onBistriConferenceReady"); 
         }
     },
 
-    
-    onBistriConferenceReady = function(){
-    // your code goes here
-};
-    
+        
 });
